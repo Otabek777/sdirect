@@ -299,6 +299,7 @@ ul, ol {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 60px;
 }
 
 .solution__left {
@@ -439,6 +440,7 @@ ul, ol {
 }
 
 .mobile__text2 {
+  width: 446px;
   margin-bottom: 106px;
 }
 
@@ -501,7 +503,7 @@ ul, ol {
 .mobile__img2 .border {
   width: 441px;
   height: 441px;
-  top: -100%;
+  top: -85%;
 }
 .mobile__img2 .border span {
   width: 387px;
@@ -544,7 +546,7 @@ ul, ol {
 }
 
 .download__block {
-  width: 444px;
+  width: 432px;
 }
 .download__block .box {
   display: -webkit-box;
@@ -1005,6 +1007,7 @@ ul, ol {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-left: 0;
   }
 
   .solution__left {
