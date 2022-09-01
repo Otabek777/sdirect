@@ -88,6 +88,10 @@ ul, ol {
         line-height: 17px;
         color: #222222;
         margin-left: 21px;
+        transition: all .2s ease;
+    }
+    .item:hover {
+        color: #D32F2F;
     }
     .install_btn {
         padding: 15px 33px;
@@ -110,6 +114,7 @@ ul, ol {
 // banner
 .banner {
     height: 563px;
+    overflow: hidden;
     .container {
         height: 100%;
     }
@@ -307,6 +312,7 @@ ul, ol {
     padding-top: 80px;
     padding-bottom: 84px;
     background: #ECF0F3;
+    overflow: hidden;
     .title_h2 {
         font-weight: 900;
         font-size: 40px;
@@ -388,20 +394,20 @@ ul, ol {
         }
         .img1 {
             position: absolute;
-            top: 50%;
+            top: 0;
             left: 50%;
             transform: translate(-50%, -50%);
         }
         .img2 {
             width: 169px;
             position: absolute;
-            top: -20%;
+            top: 0%;
             right: 20px;
         }
         .img3 {
             width: 179px;
             position: absolute;
-            top: 4px;
+            top: 100px;
             left: 42px;
         }
     }
@@ -646,6 +652,10 @@ ul, ol {
         text-align: right;
         color: #15325A;
         margin-bottom: 5px;
+        transition: all .2s ease;
+    }
+    .phone:hover {
+        color: #D32F2F;
     }
     .email {
         font-weight: 400;
@@ -653,6 +663,10 @@ ul, ol {
         line-height: 20px;
         text-align: right;
         color: #15325A;
+        transition: all .2s ease;
+    }
+    .email:hover {
+        color: #D32F2F;
     }
 }
 .footer__bottom {
@@ -677,6 +691,9 @@ ul, ol {
             line-height: 18px;
             color: #D32F2F;
         }
+        .link:hover {
+            text-decoration: underline;
+        }
     }
     .right {
         display: flex;
@@ -691,6 +708,9 @@ ul, ol {
             line-height: 18px;
             color: #222222;
             margin: 2px 0;
+        }
+        .link:hover {
+            text-decoration: underline;
         }
     }
 }
